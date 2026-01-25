@@ -41,5 +41,39 @@ public class Venda {
         this.nomeVendedor = nomeVendedor;
     }
 
+    public int getIdVenda() {
+        return idVenda;
+    }
 
+    public LocalDate getDataVenda() {
+        return dataVenda;
+    }
+
+    public void setDataVenda(LocalDate dataVenda) {
+        this.dataVenda = dataVenda;
+    }
+
+    public BigDecimal getValorVenda() {
+        return valorVenda;
+    }
+
+    public void setValorVenda(BigDecimal valorVenda) {
+        this.valorVenda = valorVenda;
+    }
+
+    public int getIdVendedor() {
+        return idVendedor;
+    }
+
+    public void setIdVendedor(int idVendedor) {
+        this.idVendedor = idVendedor;
+    }
+
+    public String getNomeVendedor() {
+        return nomeVendedor;
+    }
+
+    public void setNomeVendedor(String nomeVendedor) {
+        this.nomeVendedor = nomeVendedor;
+    }
 }

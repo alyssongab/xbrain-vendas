@@ -12,6 +12,7 @@ public class Venda {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id_venda")
     private int idVenda;
 
     @NotNull

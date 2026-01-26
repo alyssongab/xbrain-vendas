@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class GlobalExceptionHandler extends RuntimeException{
 
     @ExceptionHandler
-    public ResponseEntity<String> handleException(Exception e) {
-        return ResponseEntity.status(400).body("Dados inválidos. ");
+    public ResponseEntity<String> handleGenericExceptions (Exception e) {
+        return ResponseEntity.status(400).body("Dados inválidos.");
     }
 
 }

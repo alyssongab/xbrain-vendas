@@ -11,9 +11,9 @@ import java.time.LocalDate;
 public class Venda {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_venda")
-    private int idVenda;
+    private Integer idVenda;
 
     @NotNull
     @Column(name = "data_venda")

@@ -46,6 +46,10 @@ public class Venda {
         return idVenda;
     }
 
+    public void setIdVenda(int idVenda) {
+        this.idVenda = idVenda;
+    }
+
     public LocalDate getDataVenda() {
         return dataVenda;
     }

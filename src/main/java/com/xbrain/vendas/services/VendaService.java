@@ -29,8 +29,8 @@ public class VendaService {
         venda.setIdVendedor(request.idVendedor());
         venda.setNomeVendedor(request.nomeVendedor());
 
-        this.vendaRepository.save(venda);
-        return convertToResponse(venda);
+        Venda vendaSalva = this.vendaRepository.save(venda);
+        return convertToResponse(vendaSalva);
     }
 
     // lista de vendedores com as estatisticas (total $ de vendas e media diaria de vendas) no periodo
